@@ -1,38 +1,92 @@
 <!DOCTYPE html>
-
-<html lang="en-us">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Rob Frankin Personal Bio</title>
-  <h1> Name: Rob Franklin </h1>
+  <title>My Bio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .header img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 32px;
+      font-weight: bold;
+      color: #333;
+    }
+    .header h2 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: normal;
+      color: #666;
+    }
+    .bio {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #666;
+    }
+    .bio p {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    .bio h3 {
+      margin: 20px 0 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+    .social-links {
+      display: flex;
+      margin-top: 20px;
+    }
+    .social-links a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #666;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+    .social-links a:hover {
+      color: #333;
+    }
+    .social-links img {
+      width: 20px;
+      height: 20px;
+    }
+  </style>
 </head>
-
 <body>
-  
-  <br>
-  <p>I'm Rob, I live in Perth, Western Australia</p>
-  <img width=100 src="C:\Users\rober\DA\11-HTML\11.2-GitHubPages_CSS\Frankr22.github.io\run.png" alt="2018 Melbourne Marathon">
-  <br>
-  <p>My favourite sport is distance running, and my favourite holiday spot is Yallingup beach.</p>
-  <img width=400 src="C:\Users\rober\DA\11-HTML\11.2-GitHubPages_CSS\Frankr22.github.io\yalls.jpg" alt="Yallingup Beach">
-  <br>
-  <h2>Here are links to my Social Media pages</h2>
-  <ul>
-      <li><a href="https://www.facebook.com/frankr02" target="_blank"> Facebook</a></li>
-      <li><a href="https://www.instagram.com/frankr02" target="_blank"> Instagram</a></li>
-      <li><a href="https://www.twitter.com/frankr02" target="_blank"> Twitter</a></li>
-      <li><a href="https://www.strava.com/athletes/3252231" target="_blank"> Strava</a></li>
-  
-  <table border="1">
-    <th colspan="4"style="background-color:#737577">My Favourite Movies, Books, Songs, and Activities</th>
-      <tr colspan="4">
-          <th> Movies </th>
-          <th> Books </th>
-          <th> Songs </th>
-          <th> Activities </th>
-      </tr>
-  </table>
-</body>
-
-</html>
+  <div class="container">
+    <div class="header">
+      <img src="profile.jpg" alt="Profile picture">
+      <div>
+        <h1>Your Name</h1>
+        <h2>Job Title</h2>
+      </div>
+    </div>
+    <div class="bio">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis urna in neque lobortis posuere eu eu justo. Aliquam erat volutpat. Morbi id semper diam. Donec fringilla justo in elit bibendum, eget porttitor ligula tristique. Fusce vel tempus velit.</p>
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
