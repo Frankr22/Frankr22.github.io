@@ -1,75 +1,80 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fafafa;
-  }
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  .header img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-  }
-  .header h1 {
-    margin: 0;
-    font-size: 32px;
-    font-weight: bold;
-    color: #333;
-  }
-  .header h2 {
-    margin: 0;
-    font-size: 24px;
-    font-weight: normal;
-    color: #666;
-  }
-  .bio {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #666;
-  }
-  .bio p {
-    margin: 0;
-    margin-bottom: 10px;
-  }
-  .bio h3 {
-    margin: 20px 0 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-  }
-  .social-links {
-    display: flex;
-    margin-top: 20px;
-  }
-  .social-links a {
-    display: inline-block;
-    margin-right: 10px;
-    color: #666;
-    text-decoration: none;
-    transition: all 0.3s;
-  }
-  .social-links a:hover {
-    color: #333;
-  }
-  .social-links img {
-    width: 20px;
-    height: 20px;
-  }
-  a {
-    color: #00b0ff;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  a:hover {
-    color: #000080;
-  }
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 500;
+  color: #333;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #666;
+}
+
+.bio {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.bio p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.bio h2 {
+  margin: 20px 0 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+}
+
+.bio ul {
+  padding-left: 20px;
+}
+
+.bio li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #174ea6;
+}
